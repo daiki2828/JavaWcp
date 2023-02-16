@@ -28,12 +28,12 @@ public class Practice03 {
         String[] param = input.split(" ");//入力値を空白で分解する
         //回答
         String type = null;
-        Integer sum = 0;
+        int sum = 0;
         for (int idx=0; idx<param.length; idx++) {
 	    	if (param[idx].equals("+") || param[idx].equals("-")) {
 	    		type = param[idx];
 	    	} else {
-	    		Integer num = Integer.parseInt(param[idx]);
+	    		int num = Integer.parseInt(param[idx]);
 	    		if (type !=null) {
 	    			if (type.equals("+")) {
 	    				sum += num;
