@@ -32,17 +32,6 @@ public class Practice02 {
         String i= param[1];
         int num2= Integer.parseInt(param[2]);
         
-        /* if (i=="+") {
-        	System.out.println(num1 + num2);
-        } else if (i=="-") {
-        	System.out.println(num1 - num2);
-        } else if (i=="*") {
-        	System.out.println(num1 * num2);
-        } else if (i=="/") {
-        	System.out.println(num1/num2 + "..." + num1%num2);
-        }
-        */
-        
         if(i.equals("+")){ //①
             System.out.println(num1 + num2);
         }else if(i.equals("-")){
