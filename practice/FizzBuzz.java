@@ -12,11 +12,15 @@ public class FizzBuzz {
 		String strFizz = "Fizz";
 		String strBuzz = "Buzz";
 		
+		//問１:for
 		for ( i=1; i <= loopCount; i++) {
+			//問2: if
 			if ( i % (numFizz * numBuzz) == 0) {
 				System.out.println(strFizz + strBuzz);
+			//問3: else if
 			} else if (i % numFizz==0) {
 				System.out.println(strFizz);
+			//問4: i % numBuzz ==0
 			} else if (i % numBuzz == 0) {
 				System.out.println(strBuzz);
 			} else {

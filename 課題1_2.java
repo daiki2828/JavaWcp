@@ -10,7 +10,7 @@ public class 課題1_2 {
 				d += i;
 			}
 		}
-		System.out.println(d);
+		System.out.println("2から100までの偶数の合計は" + d + "です。");
 
 	}
 
